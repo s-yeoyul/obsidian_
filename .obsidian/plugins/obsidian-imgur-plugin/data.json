@@ -1,0 +1,5 @@
+{
+  "uploadStrategy": "AUTHENTICATED_IMGUR",
+  "clientId": "8645692661143c0",
+  "showRemoteUploadConfirmation": false
+}

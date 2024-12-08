@@ -1,0 +1,13 @@
+{
+  "attachmentFolderPath": "/Abyss",
+  "promptDelete": false,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "1",
+    "downscalePercent": 100
+  },
+  "spellcheck": false,
+  "alwaysUpdateLinks": true
+}
