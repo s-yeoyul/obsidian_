@@ -4,25 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b2ee1ff69b773076",
+        "id": "d7f39555b1c2d172",
         "type": "tabs",
         "children": [
           {
-            "id": "8655cfbd53b7aeca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithm/AL 1204.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "AL 1204"
-            }
-          },
-          {
-            "id": "2a901e1cac1b3ffb",
+            "id": "9c07932d08639f6b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -35,8 +21,7 @@
               "title": "산업공학개론 정리"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -195,34 +180,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2a901e1cac1b3ffb",
+  "active": "9c07932d08639f6b",
   "lastOpenFiles": [
-    "DS 1210.md",
+    "졸업.md",
+    "AI법 중간고사.md",
+    "나의 삶 개선 방안.md",
+    "().md",
+    "산업공학개론 정리.md",
+    "수연이.md",
+    "Pointage.md",
+    "DC 1205 1.md",
     "Algorithm/AL 1204.md",
+    "Data Structure/DS 1205.md",
+    "CSAPP 8.md",
+    "Data Communications/DC 1205.md",
+    "Data Structure/DS 1210.md",
+    "Untitled.md",
+    "Untitled 1.md",
+    "Untitled 2.md",
     "Algorithm/AL 1016.md",
     "Algorithm/AL 1002.md",
     "Algorithm/AL 1023.md",
     "Algorithm/AL 1106.md",
     "Algorithm/AL 1104.md",
     "Algorithm/AL 1125.md",
-    "산업공학개론 정리.md",
     "Algorithm/AL 1007.md",
     "Algorithm/AL 1202.md",
     "Algorithm/AL 1127.md",
     "Algorithm/AL 1120.md",
-    "Algorithm/AL 1118.md",
-    "Algorithm/AL 1113.md",
-    "Algorithm/AL 0911.md",
-    "Untitled 2.md",
-    "Algorithm/AL 1111.md",
-    "DC 1205.md",
-    "Untitled.md",
-    "System Programming/SP 0912.md",
-    "System Programming/SP 0919.md",
-    "System Programming/SP 0924.md",
-    "System Programming/SP 1010.md",
-    "System Programming/SP 1008.md",
-    "DS 1205.md",
     "Abyss/Pasted image 20241130214831.png",
     "Abyss/Pasted image 20241130214825.png",
     "Abyss/Pasted image 20241125142123.png",
