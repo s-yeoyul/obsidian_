@@ -46,7 +46,7 @@ Access network는 엔드 시스템을 멀리 있는 엔드 시스템과 연결�
 #### Home Access: DSL, cable, FTTH, Dial-up, Satellite
 #### Access in the Enterprise(and the home): Ethernet, WiFi
 
-### 1.2.2 Physical Media
+### 1.2.3 Physical Media
 #### Twisted-Pair Copper Wire
 #### Coaxial Cable
 #### Fiber Optics
