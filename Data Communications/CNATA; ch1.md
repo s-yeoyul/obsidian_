@@ -1,4 +1,6 @@
-1.1.1
+# Ch 1. Computer Networks and the Internet
+## 1.1 What is the Internet?
+### 1.1.1 A Nuts-and-Bolts Description
 인터넷은 세계의 computing device를 연결해주는 것이다.
 세상이 발전하면서 computing device의 종류도 확장되었는데, 이를 host/end system이라고 부른다. end system 끼리는 communication link / packet switch로 연결됨.
 sending end system이 데이터를 segment하고 거기에 header byte를 segmentwise하게 붙인다. 
@@ -14,7 +16,7 @@ packet switched network는 교차로, 고속도로 수송 체계와 비슷하다
 Transmission Control Protocol; TCP
 Internet Protocol; IP
 
-1.1.2
+### 1.1.2 A Services Description
 이메일이나 웹 서핑 스트리밍 p2p 등등의 application은 distributed application이라 불리운다. 
 내가 distributed application 하나 만든다면?
 먼저 소프트웨어를 짜야된다. 자바나 파이썬 C 등..
@@ -29,16 +31,17 @@ A가 B에게 편지를 쓴다. 바로 B의 창문에다가 던질 수는 없는 
 
 우체국은 its own postal service API를 가지고 있다. 이것이 Internet API와 유사하다.
 
-1.1.3
-
-### 1.2 the network edge
+### 1.1.3 What Is a Protocol?
+>_protocols_ _define_ _format_, _order_ _of_ _messages sent and received_ _among_
+_network entities, and_ _actions taken_ _on message transmission, receipt._
+### 1.2 the Network Edge
 end system은 Internet의 edge에 있기 때문에 그렇게 불리운다.
 host라고 불리는 이유는 그들이 application program(웹브라우저, 이메일 리더기,  서버 등)을 host=run 하기 때문이다.
 host는 client와 server로 나뉜다.
-1.2.1
+### 1.2.1 Client and Server Programs
 networking software의 맥락에서 정의해보자.
 client program: host에서 돌아가는 프로그램인데 server program 에 요청하고 서비스를 받아오는 프로그램.
-1.2.2 
+### 1.2.2 Access Networks
 Access network는 엔드 시스템을 멀리 있는 엔드 시스템과 연결하기 위해 first router(=edge router)와 연결해주는 physical link이다.
 #### Home Access: DSL, cable, FTTH, Dial-up, Satellite
 #### Access in the Enterprise(and the home): Ethernet, WiFi
