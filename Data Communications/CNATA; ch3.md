@@ -327,7 +327,7 @@ b에서는 ACK가 잘 보내졌고 sender의 window도 옮겨져서 다시 3, 0,
 위는 우리가 지금까지 살펴본 rdt에 대한 요약이다.
 
 ## 3.5 Connection-Oriented Transport: TCP
-## 3.5.1 The TCP Connection
+### 3.5.1 The TCP Connection
 TCP는 하나의 process가 다른 process에게 본격적으로 데이터를 보내기 전에 handshake 과정을 거쳐야 하기 때문에 **connection-oriented**라고 불린다.
 TCP는 **full-duplex service**를 제공하는데, 만약 process A가 process B에게 data를 전송한다면 동시에 B에서 A로도 전송가능하다는 이야기이다.
 그리고 1:1 communication만 가능하기에 **point-to-point**라고도 불린다.
