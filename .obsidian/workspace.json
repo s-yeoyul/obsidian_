@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Communications/DC 1210.md",
+                "file": "Data Communications/DC 1205.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DC 1210"
+              "title": "DC 1205"
             }
           },
           {
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structure/DS 1126.md",
+                "file": "Data Structure/DS 1205.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DS 1126"
+              "title": "DS 1205"
             }
           }
         ],
@@ -211,12 +211,16 @@
   },
   "active": "ed9a598df0db967b",
   "lastOpenFiles": [
+    "Data Communications/DC 1128.md",
+    "Data Communications/DC 1205.md",
+    "Data Communications/DC 1210.md",
+    "Data Structure/DS 1205.md",
+    "Data Structure/DS 1126.md",
+    "Data Structure/DS 1203.md",
     "Data Structure/Weiss Ch2.md",
     "Data Structure/DS proj3.md",
     "Data Structure/DS 1210.md",
-    "Data Structure/DS 1205.md",
     "Data Communications/DC 1114.md",
-    "Data Structure/DS 1126.md",
     "Data Structure/DS 1121.md",
     "Data Structure/DS 1119.md",
     "Data Structure/DS 1114.md",
@@ -233,10 +237,6 @@
     "Data Communications/DC 1008.md",
     "Data Communications/DC 0926.md",
     "Data Communications/DC 0924.md",
-    "Data Communications/DC 0919.md",
-    "Data Communications/DC 0912.md",
-    "Data Communications/DC 0910.md",
-    "Data Communications/DC 0905.md",
     "Abyss/Pasted image 20241130214831.png",
     "Abyss/Pasted image 20241130214825.png",
     "Abyss/Pasted image 20241125142123.png",
