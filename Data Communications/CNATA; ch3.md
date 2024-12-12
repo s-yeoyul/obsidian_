@@ -462,7 +462,7 @@ three dupACK를 받으면 sender는 **fast retransmit**을 수행한다. missing
 ![](https://i.imgur.com/RLVPQSZ.png)
 ![](https://i.imgur.com/AuC6YPs.png)
 
-위 코드는 fast retranmit을 반영한 ACK receive event의 modification이다.
+위 코드는 fast retransmit을 반영한 ACK receive event의 modification이다.
 
 #### Go-Back-N or Selective Repeat?
 3.33을 보면 TCP는 smallest seqnum에 대해서 sendbase와 nextseqnum을 유지한다. 이러한 관점에서 보면 GBN style로 보인다. 그러나 TCP는 out-of-ordered segment를 찝어서 잘 받는다(selective acknowledgement). GBN은 다 보내야 하는데!
