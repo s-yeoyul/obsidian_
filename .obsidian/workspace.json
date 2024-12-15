@@ -13,40 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Communications/CNATA; ch3.md",
+                "file": "System Programming/SP 1010.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CNATA; ch3"
-            }
-          },
-          {
-            "id": "ed9a598df0db967b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Communications/DC 1128.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DC 1128"
-            }
-          },
-          {
-            "id": "ecf09ee69757a2f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Structure/DS 1205.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DS 1205"
+              "title": "SP 1010"
             }
           }
         ]
@@ -210,32 +182,32 @@
   },
   "active": "9c07932d08639f6b",
   "lastOpenFiles": [
-    "Data Communications/DC 1114.md",
-    "Data Communications/DC 1121.md",
-    "Data Communications/DC 1112.md",
-    "Data Communications/CNATA; ch3.md",
-    "Data Communications/DC 1128.md",
-    "Data Communications/DC 1205.md",
+    "System Programming/SP 1008.md",
+    "System Programming/SP 0924.md",
+    "System Programming/SP 1015.md",
+    "System Programming/SP 1022.md",
+    "System Programming/SP 1024.md",
+    "System Programming/SP 1029.md",
+    "System Programming/SP 1112.md",
+    "System Programming/SP 1107.md",
+    "System Programming/SP 1031.md",
+    "Data Communications/Untitled 2.md",
     "Data Communications/DC 1210.md",
-    "Data Structure/DS 1205.md",
+    "Data Structure/DS 1119.md",
     "Data Structure/DS 1126.md",
     "Data Structure/DS 1203.md",
-    "Data Structure/Weiss Ch2.md",
-    "Data Structure/DS proj3.md",
-    "Data Structure/DS 1210.md",
     "Data Structure/DS 1121.md",
-    "Data Structure/DS 1119.md",
     "Data Structure/DS 1114.md",
-    "Data Communications/DC 1107.md",
-    "Data Communications/DC 1105.md",
-    "Data Communications/DC 1031.md",
-    "Data Communications/DC 1029.md",
-    "Data Communications/DC 1024.md",
-    "Data Communications/DC 1022.md",
-    "Data Communications/CNATA; Ch2.md",
-    "Data Communications/DC 1010.md",
-    "Data Communications/DC 1008.md",
-    "Data Communications/DC 0926.md",
+    "Data Structure/DS 1112.md",
+    "Data Structure/DS 1107.md",
+    "Data Structure/DS 1105.md",
+    "Data Structure/DS 1029.md",
+    "Data Structure/DS 1022 4.4 AVL Trees.md",
+    "Data Structure/DS 1210.md",
+    "Data Structure/DS 1205.md",
+    "Data Structure/DS proj3.md",
+    "Data Structure/Weiss Ch2.md",
+    "Data Communications/DC 1128.md",
     "Abyss/Pasted image 20241130214831.png",
     "Abyss/Pasted image 20241130214825.png",
     "Abyss/Pasted image 20241125142123.png",
