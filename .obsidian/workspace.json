@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "System Programming/SP 1010.md",
+                "file": "System Programming/SP 1105.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SP 1010"
+              "title": "SP 1105"
             }
           }
         ]
@@ -182,15 +182,17 @@
   },
   "active": "9c07932d08639f6b",
   "lastOpenFiles": [
-    "System Programming/SP 1008.md",
-    "System Programming/SP 0924.md",
-    "System Programming/SP 1015.md",
-    "System Programming/SP 1022.md",
-    "System Programming/SP 1024.md",
     "System Programming/SP 1029.md",
-    "System Programming/SP 1112.md",
+    "System Programming/SP 1024.md",
+    "System Programming/SP 1105.md",
     "System Programming/SP 1107.md",
     "System Programming/SP 1031.md",
+    "System Programming/SP 1022.md",
+    "System Programming/SP 1112.md",
+    "System Programming/SP 1015.md",
+    "System Programming/SP 1010.md",
+    "System Programming/SP 1008.md",
+    "System Programming/SP 0924.md",
     "Data Communications/Untitled 2.md",
     "Data Communications/DC 1210.md",
     "Data Structure/DS 1119.md",
@@ -206,8 +208,6 @@
     "Data Structure/DS 1210.md",
     "Data Structure/DS 1205.md",
     "Data Structure/DS proj3.md",
-    "Data Structure/Weiss Ch2.md",
-    "Data Communications/DC 1128.md",
     "Abyss/Pasted image 20241130214831.png",
     "Abyss/Pasted image 20241130214825.png",
     "Abyss/Pasted image 20241125142123.png",
