@@ -148,3 +148,18 @@ reg mem2 [28:0];
 
 첫 번째 line은 256칸 메모리를 unpacked로 선언한 것이고, 각 칸은 8bit 이다(packed).
 두번째는 29bit 메모리를 선언한 것이고 각 칸은 1 bit이다. 
+
+부분적으로 벡터를 선택할 수도 있다.
+32bit vector의 endianness를 바꾸는 모듈은 다음과 같다.
+```verilog
+module top_module( 
+    input [31:0] in,
+    output [31:0] out );//
+
+    assign out[7:0] = in[31:24];
+    assign out[15:8] = in[23:16];
+    assign out[23:16] = in[15:8];
+    assign out[31:24] = in[7:0];
+
+endmodule
+```
