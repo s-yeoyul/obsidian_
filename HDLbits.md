@@ -196,3 +196,5 @@ assign out = {in[7:0], in[15:8]}; // out[23:16] **goes to zero.**
 
 그리고 특정 비트를 반복하고 싶을 때는 `{num{bit}}` 로 표기해주면 된다.
 **중괄호를 2중으로 쳐줘야 한다!!**
+
+### 8. Module instantiation
