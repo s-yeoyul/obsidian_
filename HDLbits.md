@@ -198,3 +198,8 @@ assign out = {in[7:0], in[15:8]}; // out[23:16] **goes to zero.**
 **중괄호를 2중으로 쳐줘야 한다!!**
 
 ### 8. Module instantiation
+![](https://i.imgur.com/6T21bFt.png)
+
+top_module 안에 sub-module을 이용하여 논리 연산을 구현하고 싶을 수 있다. 이럴 때 미리 만들어 놓은 module을 인스턴스화 하여 이용하면 된다.
+`mod_a instance1 (.out(out), .in1(in1), .in2(in2));` 이런 식으로 인자의 이름에 맞게 삽입하는 방식이 존재하고
+`mod_b instance2 (wa, wb, wc);` 와 같이 정해진 순서대로 인자를 주는 방식도 존재하는데 가독성 측면에서 전자를 더 많이 사용하는 듯 하다.
