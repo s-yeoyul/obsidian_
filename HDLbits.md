@@ -138,3 +138,13 @@ assign b = a; // b = 1, implicitly-created wire
 assign c = b; // c = 001 <-- bug, because a != c
 ```
 
+그리고 앞서 비트 범위를 변수명 앞에 선언하는 것을 기억할 것이다. 이를 **packed**라고 부른다. 즉 n개의 비트가 묶여있다는 뜻이다. 신호 자체가 n비트인 경우 packed vector를 이용하면 되겠지만, 메모리의 경우에는?
+n개의 독립적인 메모리가 필요한 경우에도 그렇게 선언을 할 필요는 없을 것이다. 이럴때는 **unpacked**로 선언하면 되고, 비트 범위가 변수명 뒤에 붙는다.
+
+```verilog
+reg [7:0] mem [255:0];
+reg mem2 [28:0];
+```
+
+첫 번째 line은 256칸 메모리를 unpacked로 선언한 것이고, 각 칸은 8bit 이다(packed).
+두번째는 29bit 메모리를 선언한 것이고 각 칸은 1 bit이다. 
