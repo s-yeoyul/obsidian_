@@ -107,3 +107,25 @@ endmodule
 ```
 
 ### 6. Vector
+wire에 n bit 신호를 담아서 연결하고 싶을 수도 있다.
+`wire [99:0] vec;` 으로 선언하면 0번째 부터 99번째 index를 갖는 wire 벡터가 선언된다.
+instance의 이름 앞에 dimension이 먼저 오고, \[last:first]로 선언한다는 것에 주의하자.
+
+![](https://i.imgur.com/cteo60Q.png)
+![](https://i.imgur.com/fuThYMR.png)
+
+```verilog
+module top_module ( 
+    input wire [2:0] vec,
+    output wire [2:0] outv,
+    output wire o2,
+    output wire o1,
+    output wire o0  ); // Module body starts after module declaration
+
+    assign o0 = vec[0];
+    assign o1 = vec[1];
+    assign o2 = vec[2];
+    assign outv = vec;
+endmodule
+```
+
