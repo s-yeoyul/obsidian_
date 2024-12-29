@@ -167,3 +167,30 @@ endmodule
 그리고 vector에 대해 논리 연산을 수행할 때 1. bitwise 2. logical operation을 수행할 수 있다.
 **Bitwise**는 각 비트에 대해 연산을 수행하는 것이고 (ex) `|, &, ^, ~` )
 **Logical**은 전체 비트를 하나의 진리값으로 보고 연산을 수행하는 것이다. (ex) `||, &&, !` )
+
+### 7. Vector concatenation
+중괄호를 이용하여 벡터를 분해하고 연결할 수 있다.
+
+![](https://i.imgur.com/w132Ozq.png)
+```verilog
+module top_module (
+    input [4:0] a, b, c, d, e, f,
+    output [7:0] w, x, y, z );
+    
+    assign w[7:0] = {a[4:0], b[4:2]};
+    assign x[7:0] = {b[1:0], c[4:0], d[4]};
+    assign y[7:0] = {d[3:0], e[4:1]};
+    assign z[7:0] = {e[0], f[4:0], 2'b11};
+
+endmodule
+```
+
+endianness를 신경 써줘야 한다. concatenation을 수행할 때도 MSB가 왼쪽, LSB가 오른쪽에 오도록 해야 한다.
+
+```verilog
+// output [23:0] out;
+assign {out[7:0], out[15:8]} = in; // Just swap two bytes. [23:16] does not change.
+assign out[15:0] = {in[7:0], in[15:8]};    // This is the same thing.
+assign out = {in[7:0], in[15:8]}; // out[23:16] **goes to zero.**
+```
+
