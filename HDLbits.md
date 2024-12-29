@@ -36,4 +36,16 @@ module top_module(
 endmodule
 ```
 
-### 4.
+### 4. Basic gates
+#### Inverter
+![](https://i.imgur.com/9u6tdDt.png)
+
+```verilog
+module top_module( input in, output out );
+	assign out = ~in;
+endmodule
+```
+
+#### AND
+![](https://i.imgur.com/Eg8nZNs.png)
+
