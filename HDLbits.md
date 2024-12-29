@@ -9,4 +9,5 @@ module top_module( output one );
 endmodule
 ```
 
-### 2.
+### 2. Wire
+![](https://i.imgur.com/oAcIWmo.png)
