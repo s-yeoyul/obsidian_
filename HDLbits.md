@@ -1,0 +1,1 @@
+`assign` : output에 값을 할당하는 역할
