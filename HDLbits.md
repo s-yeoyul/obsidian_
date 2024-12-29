@@ -81,3 +81,27 @@ module top_module(
     assign out = ~(a ^ b);
 endmodule
 ```
+
+### Declaring wires
+![](https://i.imgur.com/JNr6FRW.png)
+
+```verilog
+module top_module(
+    input a,
+    input b,
+    input c,
+    input d,
+    output out,
+    output out_n   ); 
+	
+    wire c1, c2, c3;
+    
+    assign c1 = a & b;
+    assign c2 = c & d;
+    assign c3 = c1 | c2;
+    
+    assign out = c3;
+    assign out_n = ~c3;
+    
+endmodule
+```
