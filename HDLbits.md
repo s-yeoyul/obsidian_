@@ -130,3 +130,11 @@ module top_module (
 endmodule
 ```
 
+만약 명시적으로(=explicitly) 타입을 선언하지 않은 변수가 있다면 기본적으로 1 bit wire로 가정한다.
+```verilog
+wire [2:0] a, c; // Two vectors
+assign a = 3'b101; // a = 101
+assign b = a; // b = 1, implicitly-created wire
+assign c = b; // c = 001 <-- bug, because a != c
+```
+
