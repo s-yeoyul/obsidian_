@@ -48,4 +48,14 @@ endmodule
 
 #### AND
 ![](https://i.imgur.com/Eg8nZNs.png)
+```verilog
+module top_module( 
+    input a, 
+    input b, 
+    output out );
+	assign out = a & b;
+endmodule
+```
+#### NOR
+![](https://i.imgur.com/ptG5E0E.png)
 
