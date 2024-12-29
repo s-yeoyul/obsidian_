@@ -24,3 +24,16 @@ endmodule
 ![](https://i.imgur.com/n10gMMn.png)
 
 `assign` 의 순서는 상관없다. **assign은 connection을 의미하는 것이지 값을 copy하는 행위를 의미하는 것이 아니기 때문!** 
+
+```verilog
+module top_module( 
+    input a,b,c,
+    output w,x,y,z );
+	assign w = a;
+    assign x = b;
+    assign y = b;
+    assign z = c;
+endmodule
+```
+
+### 4.
