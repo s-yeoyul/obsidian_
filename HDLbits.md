@@ -69,3 +69,15 @@ endmodule
 ```
 
 #### XNOR
+`^` : bit-wise XOR operation
+
+![](https://i.imgur.com/6IwIjZP.png)
+
+```verilog
+module top_module( 
+    input a, 
+    input b, 
+    output out );
+    assign out = ~(a ^ b);
+endmodule
+```
