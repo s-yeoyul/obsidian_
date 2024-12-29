@@ -59,3 +59,13 @@ endmodule
 #### NOR
 ![](https://i.imgur.com/ptG5E0E.png)
 
+```verilog
+module top_module( 
+    input a, 
+    input b, 
+    output out );
+    assign out = ~(a | b);
+endmodule
+```
+
+#### XNOR
