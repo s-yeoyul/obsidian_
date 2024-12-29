@@ -163,3 +163,7 @@ module top_module(
 
 endmodule
 ```
+
+그리고 vector에 대해 논리 연산을 수행할 때 1. bitwise 2. logical operation을 수행할 수 있다.
+**Bitwise**는 각 비트에 대해 연산을 수행하는 것이고 (ex) `|, &, ^, ~` )
+**Logical**은 전체 비트를 하나의 진리값으로 보고 연산을 수행하는 것이다. (ex) `||, &&, !` )
