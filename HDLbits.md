@@ -109,7 +109,8 @@ endmodule
 ### 6. Vector
 wire에 n bit 신호를 담아서 연결하고 싶을 수도 있다.
 `wire [99:0] vec;` 으로 선언하면 0번째 부터 99번째 index를 갖는 wire 벡터가 선언된다.
-instance의 이름 앞에 dimension이 먼저 오고, \[last:first]로 선언한다는 것에 주의하자.
+instance의 이름 앞에 dimension이 먼저 온다.
+그리고 endianness를 통일해야 한다. 즉 한 wire/reg를 \[last:first](little-endian)로 선언했으면 일관성을 맞춰야 한다는 이야기.
 
 ![](https://i.imgur.com/cteo60Q.png)
 ![](https://i.imgur.com/fuThYMR.png)
