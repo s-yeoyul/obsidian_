@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HDLbits.md",
+                "file": "2024-2/Algorithm/AL 1023.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HDLbits"
+              "title": "AL 1023"
             }
           }
         ],
@@ -120,8 +120,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "2fbc82ce66f156c4",
@@ -212,17 +211,18 @@
   },
   "active": "b8e251ce01c7a56a",
   "lastOpenFiles": [
-    "2024-2/Algorithm/AL 1016.md",
-    "HDLbits.md",
-    "Untitled",
-    "2024-2/Algorithm/AL 1007.md",
-    "2024-2/Algorithm/AL 1023.md",
     "2024-2/Algorithm/AL 1104.md",
-    "2024-2/Algorithm/AL 1111.md",
+    "2024-2/Algorithm/AL 1023.md",
     "2024-2/Algorithm/AL 1118.md",
-    "2024-2/Algorithm/AL 1125.md",
+    "2024-2/Algorithm/AL 1113.md",
+    "2024-2/Algorithm/AL 1111.md",
     "2024-2/Algorithm/AL 1202.md",
     "cmd.md",
+    "HDLbits.md",
+    "2024-2/Algorithm/AL 1016.md",
+    "Untitled",
+    "2024-2/Algorithm/AL 1007.md",
+    "2024-2/Algorithm/AL 1125.md",
     "2024-2",
     "나의 삶 개선 방안.md",
     "산업공학개론 정리.md",
@@ -239,7 +239,6 @@
     "2024-2/System Programming/Report.pdf.md",
     "2024-2/System Programming/SP Thread Lab.md",
     "2024-2/Data Communications/DC 1210.md",
-    "2024-2/Data Communications/Untitled 2.md",
     "Abyss/Pasted image 20241130214831.png",
     "Abyss/Pasted image 20241130214825.png",
     "Abyss/Pasted image 20241125142123.png",
